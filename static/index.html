@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/static/style.css" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="/static/favicon-20200229-1.43.0-nightly-d3c79346a.ico">
+
+    <title>URL Shortener</title>
+</head>
+
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <!-- <h3 class="masthead-brand">URL Shortener</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </nav> -->
+            </div>
+        </header>
+
+        <main role="main" class="inner cover">
+            <form id="url-form">
+                <h1 class="cover-heading">Enter a long URL to make shorter:</h1>
+                <p class="lead">
+                <div class="input-group mb-3 input-group-lg">
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" required
+                        placeholder="https://example.com/users/">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon3"></span>
+                    </div>
+                </div>
+                </p>
+                <p class="lead">
+                    <button type="submit" class="btn btn-lg btn-secondary">Make it shorter!</button>
+                </p>
+            </form>
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        crossorigin="anonymous"></script>
+    <script src="/static/main.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
